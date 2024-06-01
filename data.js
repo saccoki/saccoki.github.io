@@ -57,13 +57,13 @@ export const projects = {
             summary:
                 "I was selected as the keyboard continuo player for a week long program at the Dartington Summer School. The Baroque Orchestra presenting a programme of orchestral music, and another programme of Bach's B minor Mass. The orchestra was directed by Rachel Podger, and the B minor Mass was conducted by John Butt. The Lever Hulme Foundation generously provided a bursary for me to attend this course.",
             preview: "https://programmingdiaries.herokuapp.com/",
-            techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
+            techStack: ["Bach", "Handel", "B Minor Mass", "Harpsichord", "Continuo", "DSS 23", "Rachel Podger", "John Butt"],
         },
         {
-            projectName: "Find Your Bank",
+            projectName: "Baroque Performance Institute",
             image: "images/findyourbank.png",
             summary:
-                "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
+                "",
             preview: "https://clever-fermi-0d5d76.netlify.app",
             techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
         },
@@ -150,62 +150,85 @@ export const projects = {
 
 export const experience = [
     {
-        title: "Shiprocket (Bigfoot Solution Private Limited)",
-        duration: "September 2022 - Present",
-        subtitle: "Software Engineer",
+        title: "Benslow Music - Baroque Opera Course",
+        duration: "April 1-7, 2024",
+        subtitle: "Harpsichordist/Accompanist",
         details: [
-            "Working in support and escalation team."
+            `Provided harpsichord continuo for the Benslow Baroque Opera Course, presenting Handel's Acis and Galatea`,
+            `Worked with Miguel Jaloto, Judy Tarling, Henrik Persson, Ricardo Barros, and Nick Shaw.`,
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-        icon: "truck ",
+        tags: ["Benslow Music", "Baroque Opera", "Handel", "Acis and Galatea"],
+        icon: "music",
     },
     {
-        title: "Biofourmis India Private Limited",
-        duration: "April 2022 - Jul 2023",
-        subtitle: "Software Engineer",
+        title: "Benslow Music - Arias with Strings and Continuo at A=415",
+        duration: "January 8-11, 2024",
+        subtitle: "Harpsichordist/Accompanist",
         details: [
-            `Implemented microfrontends using the Module Federation Plugin in Angular.
-            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
-            `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
-            recognition with the Biofourmis Bravo award in Q1, 2023.`,
-            `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
-            `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
-            `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
-            `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
-            management, and enhanced application performance.`,
-            `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
-            `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
-            resulting in reduced audio issues and increased user satisfaction.`,
-            `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
-            and enhancing features.`,
+            `Provided harpsichord continuo for the Benslow Bach Arias Course.`,
+            `Worked with Emma Kirkby, Judy Tarling, Peter Harvey, and Dionysios Kyropoulos.`,
         ],
-        tags: ["JavaScript", "Angular", "RxJS", "NGXS", "TypeScript", "RxState", "Webpack", "Optimization"],
+        tags: ["Benslow Music", "Bach", "Arias", "Cantatas", "Recitatives", "Emma Kirkby"],
+        icon: "music",
+    },
+    {
+        title: "Dartington Summer' School",
+        duration: "Summer of 2023",
+        subtitle: "Baroque Orchestra - Keyboard Continuo",
+        details: [
+            `I was selected as the keyboard continuo player for a week long program at the Dartington Summer School.`
+            `The Baroque Orchestra presenting a programme of orchestral music, and another programme of Bach's B minor Mass. `,
+            `The orchestra was directed by Rachel Podger, and the B minor Mass was conducted by John Butt. `,
+            `The Lever Hulme Foundation generously provided a bursary for me to attend this course.`,
+        ],
+        tags: ["Harpsichord", "Baroque Orchestra", "Dartington", "Rachel Podger"],
         icon: "heartbeat",
     },
     {
-        title: "Novopay Solutions Private Limited",
-        duration: "June 2020 - April 2022",
-        subtitle: "Software Engineer",
+        title: "Baroque Performance Institute",
+        duration: "Summers of 2018 and 2019",
+        subtitle: "Harpsichord Participant",
         details: [
-            `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
-            and Money transfer.`,
-            `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
-            Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
-            `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
-            `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
+            `Attended the summer programme for two consecutive summers.`,
+            `Participated in harpsichord master classes, private lessons, continuo classes, intro to viola da gamba, baroque dance, chamber music, and concerts.`,
+            `Studied privately with Mark Edwards and Lisa Goode Crawford`
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-        icon: "qrcode",
+        tags: ["Oberlin Conservatory", "Harpsichord", "Basso Continuo", "Historical Performance", "Chamber Music"],
+        icon: "book",
     },
     {
-        title: "ThinkPedia LLP",
-        duration: "May 2019 - June 2019",
-        subtitle: "SDE Intern",
+        title: "Music of the 21st Century Festival at DePauw University",
+        duration: "2016-2019",
+        subtitle: "Choir Member - Soprano",
         details: [
-            `Developed a customer web application for social media management, supporting the advertisement domain.`,
+            `Participated in the University Chorus, working with composers in residence:`,
+            `Gabriela Lena Frank (2016), Christopher Theofanidis (2017). Jennifer Higdon (2018), and Bright Sheng (2019).`
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+        tags: ["Gabriela Lena Frank", "Christopher Theofanidislar", "Jennifer Higdon", "Bright Sheng", "DePauw University", "Choir"],
         icon: "group",
+    },
+    {
+        title: "InterHarmony Festival in Arcidosso, Italy",
+        duration: "July 2016",
+        subtitle: "Pianist",
+        details: [
+            `Participated in a two week course, playing piano and studying under Dr. May Phang.`,
+            `Watched master classes done by Alfred Brendel, and participated in a chamber music group.`,
+        ],
+        tags: ["InterHarmony", "Italy", "Piano", "Chamber Music"],
+        icon: "music",
+    },
+    {
+        title: "Early Music America's Young Performer's Festival",
+        duration: "Summer of 2020",
+        subtitle: "Member of Tonos del Sur",
+        details: [
+            `Selected by Early Music America for the Young Performer's Festival.`,
+            `Played organ continuo for the latin american baroque music group, Tonos del Sur.`,
+            `Received an invitation to play for the festival in San Francisco, but was cancelled due to Covid.`
+        ],
+        tags: ["Early Music America", "Tonos del Sur", "Young Performer's Festival", "Continuo"],
+        icon: "music",
     },
 ];
 
