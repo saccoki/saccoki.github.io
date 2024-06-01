@@ -19,7 +19,7 @@ export const skills = [
     },
     {
         title: "Harpsichord Tuning",
-        skillName: "HTML, Bootstrap, Tailwind",
+        skillName: "Harpsichord Tuning",
         color: "4",
         percentage: "100",
     },
